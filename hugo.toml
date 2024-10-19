@@ -7,18 +7,27 @@ title = 'My New Hugo Site'
   path = 'github.com/LordMathis/hugo-theme-nightfall'
 
 [params]
-user = "hello"
-hostname = "gohugo.io"
+user = "max"
+hostname = "grishk.in"
 published = true
 readingTime = false
 math = false
 
   [params.author]
-    name = "Mr Hugo"
-    email = "hugo@example.com"
+    name = "Maxim Grishkin"
+    email = ""
 
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 1
+    url = "posts"
+  # [[menu.header]]
+  #   name = "about"
+  #   weight = 2
+  #   url = "about"
 
-
+# math
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
