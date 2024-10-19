@@ -9,7 +9,21 @@ title = 'My New Hugo Site'
 [params]
 user = "hello"
 hostname = "gohugo.io"
+published = true
+readingTime = false
+math = false
 
   [params.author]
     name = "Mr Hugo"
     email = "hugo@example.com"
+
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
