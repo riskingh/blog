@@ -1,6 +1,6 @@
 baseURL = 'https://blog.grishk.in/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'blog.grishk.in'
 
 [module]
 [[module.imports]]
@@ -36,3 +36,14 @@ math = false
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
+
+# rss
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
+
+[services]
+  [services.rss]
+    limit = 10

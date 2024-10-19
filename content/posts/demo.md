@@ -7,6 +7,10 @@ title = 'Demo'
   math = true
 +++
 
+hello 123
+hello 456
+<!--more-->
+
 This is some random stuff. This is some random stuff. This is some random stuff.
 This is some random stuff. This is some random stuff. This is some random stuff.
 
