@@ -1,6 +1,6 @@
-baseURL = 'https://blog.grishk.in/'
+baseURL = 'https://max.grishk.in/'
 languageCode = 'en-us'
-title = 'blog.grishk.in'
+title = 'max.grishk.in'
 
 [module]
 [[module.imports]]
